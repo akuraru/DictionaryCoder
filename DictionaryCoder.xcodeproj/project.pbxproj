@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		BE18D35921ED671D0066A396 /* TestSingleValueDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE18D35821ED671D0066A396 /* TestSingleValueDecodingContainer.swift */; };
+		BEB7E10421FC874200A2B7FC /* DictionaryEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB7E10321FC874200A2B7FC /* DictionaryEncoder.swift */; };
+		BEB7E10621FC87CA00A2B7FC /* DictionaryDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB7E10521FC87CA00A2B7FC /* DictionaryDecoder.swift */; };
+		BEB7E1082203293C00A2B7FC /* CodeExchenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB7E1072203293C00A2B7FC /* CodeExchenger.swift */; };
+		BEB7E10A220329C100A2B7FC /* CodeExchengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB7E109220329C100A2B7FC /* CodeExchengerTests.swift */; };
 		BEFE515621ED721600B5783E /* DictionaryCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFE515221ED721600B5783E /* DictionaryCoder.swift */; };
 /* End PBXBuildFile section */
 
@@ -17,6 +21,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABC0F0874652B138495A4619 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BE18D35821ED671D0066A396 /* TestSingleValueDecodingContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSingleValueDecodingContainer.swift; sourceTree = "<group>"; };
+		BEB7E10321FC874200A2B7FC /* DictionaryEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryEncoder.swift; sourceTree = "<group>"; };
+		BEB7E10521FC87CA00A2B7FC /* DictionaryDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryDecoder.swift; sourceTree = "<group>"; };
+		BEB7E1072203293C00A2B7FC /* CodeExchenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeExchenger.swift; sourceTree = "<group>"; };
+		BEB7E109220329C100A2B7FC /* CodeExchengerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeExchengerTests.swift; sourceTree = "<group>"; };
 		BEFE515221ED721600B5783E /* DictionaryCoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryCoder.swift; sourceTree = "<group>"; };
 		FC5B2075B4811B7EED521EDE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,6 +64,7 @@
 			children = (
 				BE18D35821ED671D0066A396 /* TestSingleValueDecodingContainer.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				BEB7E109220329C100A2B7FC /* CodeExchengerTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -91,6 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				BEFE515221ED721600B5783E /* DictionaryCoder.swift */,
+				BEB7E10321FC874200A2B7FC /* DictionaryEncoder.swift */,
+				BEB7E10521FC87CA00A2B7FC /* DictionaryDecoder.swift */,
+				BEB7E1072203293C00A2B7FC /* CodeExchenger.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -178,8 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEB7E10A220329C100A2B7FC /* CodeExchengerTests.swift in Sources */,
+				BEB7E10421FC874200A2B7FC /* DictionaryEncoder.swift in Sources */,
 				BE18D35921ED671D0066A396 /* TestSingleValueDecodingContainer.swift in Sources */,
+				BEB7E10621FC87CA00A2B7FC /* DictionaryDecoder.swift in Sources */,
 				BEFE515621ED721600B5783E /* DictionaryCoder.swift in Sources */,
+				BEB7E1082203293C00A2B7FC /* CodeExchenger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

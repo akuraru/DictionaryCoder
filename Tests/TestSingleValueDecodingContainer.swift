@@ -32,7 +32,7 @@ class TestSingleValueDecodingContainer: XCTestCase {
     }
     
     func testDictionryCoder() {
-        let model = try! DictionaryCoder().decode(Post.self, from: value)
+        let model = try! DictionaryDecoder().decode(Post.self, from: value)
         XCTAssertEqual(model.value, SingleValueTestModel.first)
     }
 }
