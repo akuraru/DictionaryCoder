@@ -93,6 +93,27 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		BEC88963227ACCB50034E80F /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				BEFE515221ED721600B5783E /* DictionaryCoder.swift */,
+				BEB7E10321FC874200A2B7FC /* DictionaryEncoder.swift */,
+				BEB7E10521FC87CA00A2B7FC /* DictionaryDecoder.swift */,
+			);
+			path = Dictionary;
+			sourceTree = "<group>";
+		};
+		BEC88964227ACCDD0034E80F /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				BEB7E1072203293C00A2B7FC /* CodeExchenger.swift */,
+				BE5E143422301E62006E1C62 /* TypeCoder.swift */,
+				BE5E143622301E63006E1C62 /* TypeDecoder.swift */,
+				BE5E143522301E63006E1C62 /* TypeEncoder.swift */,
+			);
+			path = Type;
+			sourceTree = "<group>";
+		};
 		BEFE514F21ED721600B5783E /* DictionaryCoder */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,13 +126,8 @@
 		BEFE515021ED721600B5783E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BEFE515221ED721600B5783E /* DictionaryCoder.swift */,
-				BEB7E10321FC874200A2B7FC /* DictionaryEncoder.swift */,
-				BEB7E10521FC87CA00A2B7FC /* DictionaryDecoder.swift */,
-				BEB7E1072203293C00A2B7FC /* CodeExchenger.swift */,
-				BE5E143422301E62006E1C62 /* TypeCoder.swift */,
-				BE5E143622301E63006E1C62 /* TypeDecoder.swift */,
-				BE5E143522301E63006E1C62 /* TypeEncoder.swift */,
+				BEC88963227ACCB50034E80F /* Dictionary */,
+				BEC88964227ACCDD0034E80F /* Type */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -171,6 +187,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
